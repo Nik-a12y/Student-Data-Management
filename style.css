@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(156, 183, 204);
+}
+
+#student-form {
+    width: 50%;
+    margin: 40px auto;
+    padding: 20px;
+    border: 2px solid black;
+    box-shadow: 0 0 10px (0, 0, 0, 1.5);
+    background-color: rgb(108, 116, 172);
+}
+
+#student-table {
+    width: 50%;
+    margin: 40px auto;
+    border-collapse: collapse;
+    background-color: #e09c9c;
+}
+
+th, td {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #e09c9c;
+}
+#submit-btn{
+    background-color: rgb(71, 110, 176);
+}
+#class{
+    border: 2px solid black;
+}
+#roll-no{
+    border: 2px solid black;
+}
+#name{
+    border: 2px solid black;
+}
+#border:hover{
+    border: 2px solid black;
+}
+
+
