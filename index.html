@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Data Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Student Data Management</h1>
+    <form id="student-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="roll-no">Roll No:</label>
+        <input type="number" id="roll-no" name="roll-no"><br><br>
+        <label for="class">Class:</label>
+        <input type="text" id="class" name="class"><br><br>
+        <button id="submit-btn">Submit</button>
+    </form>
+    <table id="student-table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Roll No</th>
+                <th>Class</th>
+            </tr>
+        </thead>
+        <tbody id="table-body">
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
